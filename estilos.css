@@ -1,0 +1,41 @@
+#cabecera {
+background: lightpink;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+background:lightgreen;
+font-size: 10px;
+text-shadow: 3px lightsalmon;
+}
+
+.destacados {
+background:orange;
+border: 1px solid green;
+padding: 10px;
+}
+
+.imagen {
+width: 300px;
+height: 300px;
+padding: 15px;
+}
+
+nav ul {
+width: 100px;
+height: 100px;
+margin: 20px;
+}
+
+#a_mover {
+position: relative;
+left:42px;
+top:20px;
+}
+
+.myp {
+margin: 5px;
+padding: 5px;
+box-shadow: 3px black;
+}
