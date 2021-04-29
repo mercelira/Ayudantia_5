@@ -1,15 +1,7 @@
 $(document).ready(function(){
-    var T1 = $("#titulo1");
-
-    T1.mouseenter(function(){
-        var idTit1 = $(this).attr("id");
-        $("#titulo1").text(idTit1);
-        $(this).fadeTo("fast", 0);
-    });
-
-    T1.mouseout(function(){
-        $("#titulo1").text("Este sería el título");
-        $(this).fadeTo("fast", 1);
+    
+    $("button").click(function(){
+        $("#titulo1").toggle();
     });
 
     var T2 = $("#titulo2");
